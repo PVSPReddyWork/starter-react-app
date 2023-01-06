@@ -1,0 +1,56 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.divData {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row; */
+  overflow: hidden;
+}
+.divDataInput {
+  height: 50px;
+  width: 100%;
+}
+.imageUpload {
+  border: 3px solid;
+  border-radius: 20px;
+  border-color: green;
+  cursor: pointer;
+  margin: 0px 5px;
+  padding: 12px 8px;
+  height: calc(100% - 30px);
+  width: calc(100% - 40px);
+}
+.divDataOutputDisplay {
+  flex: 1;
+  overflow: scroll;
+  position: relative;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.divDataOutputDisplay::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.divDataOutputDisplay {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/*
+/* Hide scrollbar for Chrome, Safari and Opera * /
+.divData,
+.divDataOutputDisplay::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox * /
+.divData,
+.divDataOutputDisplay {
+  -ms-overflow-style: none; /* IE and Edge * /
+  scrollbar-width: none; /* Firefox * /
+}
+*/
