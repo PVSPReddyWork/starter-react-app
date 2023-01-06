@@ -34,7 +34,8 @@
     "react-dom": "18.1.0",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.0",
-    "typescript": "^3.2.1 || ^4"
+    "typescript": "^3.2.1 || ^4",
+    "util": "^0.12.5"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.2",
